@@ -71,29 +71,13 @@
 
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-            <tr onmouseout="r2r_stop()" onmouseover="r2r_start()">
-              <td style="padding:16px;width:20%;vertical-align:middle">
-                <div class="one">
-                  <div class="two" id='r2r_image'><video  width=100% muted autoplay loop>
-                  <source src="images/r2r.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
-                  </video></div>
-                  <img src='images/scalelsd.png' width=100%>
-                </div>
-                <script type="text/javascript">
-                  function r2r_start() {
-                    document.getElementById('r2r_image').style.opacity = "1";
-                  }
-
-                  function r2r_stop() {
-                    document.getElementById('r2r_image').style.opacity = "0";
-                  }
-                  r2r_stop()
-                </script>
+            <tr>
+              <td style="padding:20px;width:35%;vertical-align:middle">
+                <img src="images/scalelsd.png" alt="b3do" width="200" style="border-style: none">
               </td>
-              <td style="padding:8px;width:80%;vertical-align:middle">
-                <a href="https://relight-to-reconstruct.github.io/">
-                  <span class="papertitle">ScaleLSD: Scalable Deep Line Segment Detection Streamlined</span>
+              <td width="75%" valign="middle">
+                <a href="https://arxiv.org/abs/2412.03451">
+                  <papertitle>ScaleLSD: Scalable Deep Line Segment Detection Streamlined</papertitle>
                 </a>
                 <br>
                 <strong>Zeran Ke</strong>, 
@@ -103,20 +87,15 @@
                 <a href="https://research.ece.ncsu.edu/ivmcl/">Tianfu Wu</a>, 
                 <a href="https://xuenan.net/">Nan Xue</a>
                 <br>
-                <em>CVPR</em>, 2025 &nbsp 
-                <!-- <font color=#FF8080><strong>(Highlight)</strong></font> -->
+                <em>CVPR</em>, 2025
                 <br>
-                <!-- <a href="https://relight-to-reconstruct.github.io/">project page</a>
-                /
-                <a href="https://arxiv.org/abs/2412.15211">arXiv</a> -->
-                <p></p>
-                <!-- <p>
-                Images taken under extreme illumination variation can be made consistent with diffusion, and this enables high-quality 3D reconstruction.
-                </p> -->
+                <!-- <a href="https://arxiv.org/abs/2412.03451">arXiv</a> / -->
+                <!-- <a href="https://icetttb.github.io/PlanarSplatting/">project page</a> -->
+                <p>
+                  This paper proposes a domain-agnostic Line Segment Detection (LSD) model trained on 10M unlabeled images to overcome generalization limitations of existing small-scale dataset approaches.
+                </p>
               </td>
             </tr>
-          </tbody></table>
-
 
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
